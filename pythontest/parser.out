@@ -1,0 +1,50 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Grammar
+
+Rule 0     S' -> expresion
+Rule 1     expresion -> ENTERO
+Rule 2     expresion -> DECIMAL
+
+Terminals, with rules where they appear
+
+DECIMAL              : 2
+ENTERO               : 1
+error                : 
+
+Nonterminals, with rules where they appear
+
+expresion            : 0
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . expresion
+    (1) expresion -> . ENTERO
+    (2) expresion -> . DECIMAL
+
+    ENTERO          shift and go to state 2
+    DECIMAL         shift and go to state 3
+
+    expresion                      shift and go to state 1
+
+state 1
+
+    (0) S' -> expresion .
+
+
+
+state 2
+
+    (1) expresion -> ENTERO .
+
+    $end            reduce using rule 1 (expresion -> ENTERO .)
+
+
+state 3
+
+    (2) expresion -> DECIMAL .
+
+    $end            reduce using rule 2 (expresion -> DECIMAL .)
+
