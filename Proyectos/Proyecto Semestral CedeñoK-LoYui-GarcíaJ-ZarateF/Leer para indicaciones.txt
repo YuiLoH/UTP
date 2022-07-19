@@ -1,2 +1,0 @@
-En el archivo rar esta el backup de la base de datos que hemos creado en SQL Server 2019 Express.
-Solo es cuestión de que realice el proceso para restablecer la base de datos y la podra tener en su computadora.
