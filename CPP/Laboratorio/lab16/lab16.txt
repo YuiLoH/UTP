@@ -1,0 +1,11 @@
+porgrama que cuenta con la siguiente info de 20 empleado
+nombre,años de ingreso , salario
+a partir de este info calcule la cantidad de años de antiguedad de los empleado de la empresa;
+considere en año actual 2018.
+la siguiente tabla muestra los porcentaje y el años de antiguedad que debe maneja para el aumento salariar:
+10-19 años  20%
+20-29 años  30%
+30-40 años  50%
+se debe imprimir el años de antiguedad, el nuevo salario, nombre, nombre de empleado
+y calcule el promedio de nuevo salario, al igual el total de dinero al pagar por los empleado que tiene años de antiguedad de 30+
+ 
